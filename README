@@ -1,0 +1,18 @@
+make composer install
+---------------------------------------
+env variables =>  
+PAYMOB_BASE_URL
+PAYMOB_API_KEY
+PAYMOB_INTEGRATION_ID
+PAYMOB_HMAC
+-----------------------------------------
+payment integration steps
+1- create account on paymob
+2- add credintials to .env file
+3- make service contain payment methods
+4- make authantication method to get token
+5- make create order method to get payment link
+6- make verify callback function
+7- make route for callback and add to payment integration in paymob panal
+8- handle subscription
+9- update subscription status after callback success
